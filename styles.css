@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #04e2ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.info-box {
+    background-color: #ffee01;
+    border: 1px solid #000000;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+    color: #555;
+}
+
+/* Tambahkan CSS untuk foto kecil dan bingkai bulat */
+.rounded-image {
+    width: 200px; /* Sesuaikan ukuran sesuai kebutuhan */
+    height: 200px; /* Sesuaikan ukuran sesuai kebutuhan */
+    border-radius: 50%; /* Membuat bingkai bulat */
+    border: 2px solid #ccc; /* Menambahkan border */
+    display: block; /* Menghindari spasi tambahan di bawah gambar */
+    margin: 0 auto; /* Membuat gambar berada di tengah */
+}
